@@ -99,7 +99,7 @@ export class MainScene extends Phaser.Scene {
     super("Main");
   }
 
-  override create() {
+  create() {
     const { difficulty } = useMetaStore.getState().settings;
     this.resetRun();
 
