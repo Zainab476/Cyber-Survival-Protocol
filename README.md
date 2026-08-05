@@ -1,592 +1,143 @@
-# Cyber Survival Protocol
+# 🎮 Cyber Survivor: Rogue Protocol
 
-You are an expert senior game developer, UI/UX designer, and software architect.
+A modern **2D cyberpunk survival game** built for the web using **Lovable AI**, **React**, **TypeScript**, and **Phaser 3**.
 
-Build a complete production-quality browser game called "Cyber Survivor: Rogue Protocol."
+The game challenges players to survive endless waves of robotic enemies, collect upgrades, unlock powerful weapons, and defeat increasingly difficult bosses in a futuristic cyber city.
 
-The goal is to create a polished portfolio-quality project that demonstrates clean architecture, modern frontend development, game programming, responsive design, animations, and maintainable code.
+This project was created as a portfolio piece to explore AI-assisted game development and modern web game technologies.
 
-==================================================
+---
 
-TECH STACK
+## ✨ Features
 
-==================================================
+* 🎯 Fast-paced survival gameplay
+* 🤖 Multiple enemy types with increasing difficulty
+* ⚔️ Upgrade and progression system
+* 💥 Multiple weapon types
+* 👾 Boss battles
+* ❤️ Health and experience system
+* 🏆 High score tracking
+* 💾 Local save functionality
+* 🎨 Modern cyberpunk-inspired UI
+* 📱 Responsive design
+* 🎵 Sound effects and background music
 
-Frontend
+---
 
-- React 19
+## 🛠️ Tech Stack
 
-- TypeScript
+* React
+* TypeScript
+* Phaser 3
+* Vite
+* Tailwind CSS
+* Framer Motion
+* Zustand
+* Howler.js
 
-- Vite
+---
 
-Game Engine
+## 🤖 AI-Assisted Development
 
-- Phaser 3
+This project was initially generated using **Lovable AI** based on detailed product and gameplay prompts.
 
-Styling
+After generation, the project was reviewed, customized, debugged, and iteratively improved to better demonstrate software engineering practices and game architecture.
 
-- Tailwind CSS
+This repository represents an exploration of combining AI-assisted development with traditional software engineering workflows.
 
-- Framer Motion
+---
 
-State Management
+## 🎮 Gameplay
 
-- Zustand
+Players must:
 
-Audio
+* Survive endless enemy waves
+* Eliminate robotic enemies
+* Collect experience to level up
+* Unlock powerful upgrades
+* Defeat bosses
+* Achieve the highest possible survival time
 
-- Howler.js
+Every playthrough becomes progressively more challenging as enemies become stronger and spawn more frequently.
 
-Backend (optional but architecture-ready)
+---
 
-- Supabase
+## 📂 Project Structure
 
-Code Quality
+```text
+src/
+ ├── components/
+ ├── game/
+ ├── scenes/
+ ├── systems/
+ ├── hooks/
+ ├── store/
+ ├── assets/
+ ├── utils/
+ └── App.tsx
+```
 
-- Modular architecture
+---
 
-- Reusable components
+## 🚀 Getting Started
 
-- Custom hooks
+### Clone the repository
 
-- Strong typing
+```bash
+git clone https://github.com/your-username/cyber-survivor.git
+```
 
-- Well-commented code
+### Install dependencies
 
-==================================================
+```bash
+npm install
+```
 
-GAMEPLAY
+### Run locally
 
-==================================================
-
-The player wakes inside a cyber simulation after an AI network has taken over the city.
-
-Objective:
-
-Survive as long as possible while defeating enemy robots, collecting experience, unlocking upgrades, and defeating bosses.
-
-Movement:
-
-- WASD
-
-- Arrow Keys
-
-Mouse:
-
-- Aim
-
-- Click UI buttons
-
-Gameplay style:
-
-- Automatic shooting
-
-- Constant enemy spawning
-
-- Fast-paced survival
-
-==================================================
-
-PLAYER SYSTEM
-
-==================================================
-
-Player Stats
-
-Health
-
-Armor
-
-Movement Speed
-
-Attack Speed
-
-Damage
-
-Critical Chance
-
-Critical Damage
-
-Luck
-
-Experience
-
-Level
-
-Coins
-
-Health Bar
-
-XP Bar
-
-Animated Level Up
-
-==================================================
-
-LEVEL UP SYSTEM
-
-==================================================
-
-Every level gives the player three random upgrade cards.
-
-Examples:
-
-+20% Damage
-
-+15% Speed
-
-+25% Fire Rate
-
-+10 Max Health
-
-Double Shot
-
-Triple Shot
-
-Piercing Bullets
-
-Electric Bullets
-
-Poison Bullets
-
-Laser Beam
-
-Drone Companion
-
-Shield Generator
-
-Magnet Radius
-
-Health Regeneration
-
-Rare upgrades should appear less frequently.
-
-==================================================
-
-WEAPONS
-
-==================================================
-
-Starting Weapon
-
-Pulse Rifle
-
-Unlockable Weapons
-
-Laser Cannon
-
-Plasma Shotgun
-
-Rocket Launcher
-
-Energy Blade
-
-Lightning Orb
-
-Mini Drone
-
-Flamethrower
-
-Each weapon has
-
-Level
-
-Damage
-
-Cooldown
-
-Range
-
-Special Effect
-
-==================================================
-
-ENEMIES
-
-==================================================
-
-Enemy Types
-
-Small Drone
-
-Heavy Robot
-
-Flying Eye
-
-Sniper Bot
-
-Fast Runner
-
-Exploding Robot
-
-Mini Boss
-
-Boss
-
-Enemies become stronger every minute.
-
-==================================================
-
-BOSS SYSTEM
-
-==================================================
-
-Spawn Boss every 5 minutes.
-
-Boss has
-
-Unique attacks
-
-Large health pool
-
-Attack patterns
-
-Dash attack
-
-Projectile attack
-
-Shockwave attack
-
-Reward:
-
-Huge XP
-
-Coins
-
-Random Legendary Upgrade
-
-==================================================
-
-MAP
-
-==================================================
-
-Infinite scrolling cyber city.
-
-Animated background.
-
-Neon lights.
-
-Broken roads.
-
-Computer terminals.
-
-Energy crystals.
-
-Particle effects.
-
-==================================================
-
-VISUAL EFFECTS
-
-==================================================
-
-Glow
-
-Bloom
-
-Hit flashes
-
-Damage numbers
-
-Critical hit animation
-
-Screen shake
-
-Smooth camera
-
-Explosions
-
-Particles
-
-Floating XP
-
-Coin animations
-
-==================================================
-
-AUDIO
-
-==================================================
-
-Background synth music.
-
-Menu music.
-
-Boss music.
-
-Button sounds.
-
-Weapon sounds.
-
-Explosion sounds.
-
-Level-up sound.
-
-Victory sound.
-
-Game over sound.
-
-Mute button.
-
-Volume slider.
-
-==================================================
-
-UI
-
-==================================================
-
-Beautiful cyberpunk interface.
-
-Main Menu
-
-Play
-
-Settings
-
-Achievements
-
-Leaderboard
-
-Credits
-
-Pause Menu
-
-Resume
-
-Restart
-
-Quit
-
-HUD
-
-Health
-
-XP
-
-Coins
-
-Level
-
-Time Survived
-
-Kills
-
-Current Weapon
-
-Mini-map
-
-FPS Counter (optional)
-
-==================================================
-
-SAVE SYSTEM
-
-==================================================
-
-Automatically save
-
-Unlocked weapons
-
-Achievements
-
-Settings
-
-High score
-
-Best survival time
-
-Statistics
-
-Use Local Storage.
-
-Architecture should support Supabase later.
-
-==================================================
-
-ACHIEVEMENTS
-
-==================================================
-
-First Kill
-
-100 Kills
-
-1000 Kills
-
-Reach Level 10
-
-Reach Level 25
-
-Defeat Boss
-
-Unlock All Weapons
-
-Survive 20 Minutes
-
-==================================================
-
-STATISTICS
-
-==================================================
-
-Games Played
-
-Highest Level
-
-Longest Survival
-
-Enemies Killed
-
-Bosses Defeated
-
-Coins Collected
-
-Damage Dealt
-
-==================================================
-
-RESPONSIVE DESIGN
-
-==================================================
-
-Desktop
-
-Tablet
-
-Mobile
-
-Landscape support.
-
-Touch joystick for mobile.
-
-Touch buttons.
-
-==================================================
-
-ANIMATIONS
-
-==================================================
-
-Framer Motion animations for menus.
-
-Smooth transitions.
-
-Hover effects.
-
-Loading animation.
-
-Card flip animation.
-
-Victory animation.
-
-==================================================
-
-DESIGN
-
-==================================================
-
-Modern cyberpunk aesthetic.
-
-Dark interface.
-
-Purple
-
-Blue
-
-Cyan
-
-Neon highlights.
-
-Rounded UI.
-
-Glassmorphism.
-
-Professional typography.
-
-High-quality icons.
-
-==================================================
-
-CODE QUALITY
-
-==================================================
-
-Use scalable folder structure.
-
-Separate game logic from UI.
-
-Use reusable React components.
-
-Use reusable Phaser scenes.
-
-No duplicated code.
-
-Strong TypeScript typing.
-
-Readable naming.
-
-Easy to extend.
-
-==================================================
-
-BONUS FEATURES
-
-==================================================
-
-Daily challenges.
-
-Difficulty selection.
-
-Skill tree.
-
-Unlockable skins.
-
-Photo mode.
-
-Replay last run.
-
-Keyboard remapping.
-
-Gamepad support.
-
-Localization (English and Arabic).
-
-Accessibility settings.
-
-Performance optimization.
-
-Loading screen.
-
-==================================================
-
-FINAL GOAL
-
-==================================================
-
-The final result should look like a polished indie game that could realistically be showcased in a professional software engineering portfolio.
-
-The application should feel complete, visually impressive, responsive, maintainable, and ready for future online multiplayer and cloud-save integration.
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/bc8af5f1-9be1-49b7-aee2-085d2f11a7d4).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+```bash
 npm run dev
 ```
+
+### Build
+
+```bash
+npm run build
+```
+
+---
+
+## 📈 Future Improvements
+
+* Multiplayer mode
+* Online leaderboard
+* Cloud save support
+* Additional maps
+* More bosses and enemy types
+* Expanded weapon system
+* Character customization
+* Achievement synchronization
+* Performance optimization
+* Controller support
+
+---
+
+## 📚 What I Learned
+
+This project provided hands-on experience with:
+
+* AI-assisted software development
+* Modern React architecture
+* TypeScript development
+* Browser-based game programming
+* State management
+* Component-based design
+* Frontend optimization
+* Debugging AI-generated code
+* Working with modern build tools
+
+---
+
+## 📄 License
+
+This project is intended for educational and portfolio purposes.
