@@ -99,7 +99,7 @@ export class MainScene extends Phaser.Scene {
     super("Main");
   }
 
-  create() {
+  override create() {
     const { difficulty } = useMetaStore.getState().settings;
     this.resetRun();
 
@@ -228,7 +228,7 @@ export class MainScene extends Phaser.Scene {
 
   // ---------------------------------------------------------------- loop
 
-  update(_time: number, deltaMs: number) {
+  override update(_time: number, deltaMs: number) {
     const store = useGameStore.getState();
     if (store.phase !== "playing") {
       this.paused = true;

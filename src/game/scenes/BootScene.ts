@@ -54,7 +54,7 @@ export class BootScene extends Phaser.Scene {
     g.destroy();
   }
 
-  create() {
+  override create() {
     // Player + companion
     this.circle("player", 14, 0x22d3ee);
     this.circle("drone", 8, 0x8b5cf6);
