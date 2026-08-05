@@ -144,7 +144,7 @@ export function playMusic(mode: "menu" | "battle" | "boss") {
   const tick = () => {
     if (!ctx || !musicGain) return;
     const t = ctx.currentTime;
-    const note = pattern.root[step % pattern.root.length];
+    const note = pattern.root[step % pattern.root.length] ?? 110;
     const bass = ctx.createOscillator();
     const bg = ctx.createGain();
     bass.type = "sawtooth";
