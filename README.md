@@ -9,7 +9,7 @@ This project was created as a portfolio piece to explore AI-assisted game develo
 ---
 ##  Gameplay Preview
 
-![Gameplay Preview](gameplay1 (1).mp4)
+![Gameplay Preview](gameplay1(1).mp4)
 ## ✨ Features
 
 * 🎯 Fast-paced survival gameplay
