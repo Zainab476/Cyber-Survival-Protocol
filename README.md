@@ -7,7 +7,9 @@ The game challenges players to survive endless waves of robotic enemies, collect
 This project was created as a portfolio piece to explore AI-assisted game development and modern web game technologies.
 
 ---
+## 🎮 Gameplay Preview
 
+![Gameplay Preview](gameplay.gif)
 ## ✨ Features
 
 * 🎯 Fast-paced survival gameplay
